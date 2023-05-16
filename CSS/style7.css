@@ -1,0 +1,42 @@
+body{
+    box-sizing: content-box;
+ 
+}
+.header{
+     height: 30%;
+}
+.left img{
+    height:70px;
+    width: 120px;
+}
+.right{
+    float:right;
+}
+.right.navlinks{
+   height: 20px;
+   
+}
+a{
+    text-decoration: none;
+    padding-right: 25px;
+    border-radius: top ;
+}
+.content{
+    background-image:url(/img/spiderman.webp);
+    height:400px;
+    z-index: -1;
+    opacity: .8;
+
+}
+h1{
+    color:red;
+    text-align: center;
+    padding-top: 60px;
+}
+p{
+    display: block;
+    font-size: 30px;
+    color:red;
+    text-align: center;
+
+}

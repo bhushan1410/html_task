@@ -1,0 +1,125 @@
+body{
+    height: auto;
+    width: auto;
+    box-sizing: content-box;
+    /* border: 1px solid black; */
+
+
+}
+.container .left img{
+
+width: 81.98px;
+height: 39.7px;
+left: 24px;
+top: 17px;
+
+}
+ 
+.left{
+    border-bottom: 1px solid #D2D2D2
+}
+
+.container {
+margin-left: auto;
+margin-right: auto;
+width: 630px;
+/* height: 0px; */
+left: 0px;
+top: 74px;
+border: 1px solid red;
+padding: 40px;
+
+
+}
+.container .div1{
+    margin-top: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 650;
+font-size: 16px;
+line-height: 20px;
+color: #333333;
+}
+.container .div2{
+
+margin-top:14px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #333333;
+}
+.container .div3{
+
+margin-top: 14px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #333333;
+}
+.container .div4{
+
+margin-top: 14px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #333333;
+}
+.container .div5{
+
+margin-top: 14px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+color: #9B034A;
+}
+.container .div6{
+margin-top: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #333333;
+}
+.container .div7{
+
+margin-top: 20px;
+
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #333333;
+
+
+box-sizing: border-box;
+
+
+width: 582px;
+height: 63px;
+left: 24px;              
+top: 330px;
+
+background: #FFFFFF;
+border: 1px solid #D2D2D2;
+border-radius: 4px;
+padding: 8px;
+
+}
+

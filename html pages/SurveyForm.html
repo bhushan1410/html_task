@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/style2.css" />
+  </head>
+  <body>
+<header>
+      <div class="title"><h1>Survey Form</h1>
+      </header>
+    
+    <form class="survey-form">
+    
+      <div class="description"> Let us know how we can improve our freeCodeCamp</div><br>
+    
+      <fieldset class="fieldset">
+    
+        <div class="sub-group">
+          <label class="left" >*Name:</label>
+        <input type="text"  class="right input-field" placeholder="Enter your name" >
+        </div>
+    
+        <div class="sub-group">
+          <label class="left"  >*Email:</label>
+        <input type="email"  class="right input-field" placeholder="Enter your email"  >
+        </div>
+    
+        <div class="sub-group">
+          <label  class="left"  >*Age:</label>
+        <input type="number"  placeholder="Age"  class="right input-field" >
+      </div>
+    
+        <div class="sub-group">
+          <label class="left" for="dropdown">which option best desribe your current role?</label>
+    
+          <select class="dropdown"  name="dropdown">
+            <option disabled>Select an option</option>
+            <option value="student">student</option>
+            <option value="employee">employee</option>
+          </select>
+        </div>
+      </fieldset>
+    
+      <fieldset class="fieldset">
+    <div class="sub-group">
+    <label class="left">
+      how likely is that you would recommend to your friend?</label>
+    
+     <ul style="list-style: none;" class="right">
+    
+       <li class="checkbox"><label><input type="checkbox"  value="definetly" >definetly</label></li>
+         <li class="checkbox"><label><input type="checkbox"  value="maybe">maybe</label></li>
+         <li class="checkbox"><label><input type="checkbox"  value="not sure " >not sure<label></li>
+
+           </ul></div></fieldset>
+  </body>
+</html>

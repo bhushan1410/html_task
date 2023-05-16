@@ -1,0 +1,77 @@
+
+body{
+    background-color: aquamarine;
+}
+.title{
+    background-color: aquamarine;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+   color: black;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+}
+.survey-form{
+    background-color: aliceblue;
+     max-width: 90%;
+    margin: auto;
+    border-radius: 15px;
+   }
+.description{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 17px;
+    font-weight: bold;
+}
+
+.left{
+    width: 30%;
+    padding-right: 4%;
+    text-align: right;
+
+}
+.sub-group{
+     position: relative;
+     right: 30px;
+     display: flex;
+     justify-content: center;
+     padding: 1% ;
+}
+.label.left{
+    width: 30%;
+    padding-right:4% ;
+    text-align: right;
+}
+.right{
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.radio{
+    height:20px;
+    padding:5px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  
+  .dropdown{
+    height:30px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+    margin: auto;
+  }
+  
+  .checkbox{
+    position:relative;
+    padding:3px;
+    right:3px;
+    bottom:15px;
+  }
+  
+  .radio{
+    position:relative;
+    padding:3px;
+    bottom:15px;
+  }

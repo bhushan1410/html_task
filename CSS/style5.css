@@ -1,0 +1,125 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    margin: auto;
+}
+.header{
+    height: 10%;
+    background-color: black;
+    color: white;
+   }
+   nav{
+    text-align: center;
+    margin:auto;
+    padding-top: 15px;
+    
+   }
+   label{
+    padding-right: 10px;
+    height: 10px;
+   }
+   .d{
+     font-size: medium;
+     font-weight: bold;
+     text-align: center;
+     padding-top: 15px;
+   }
+   .content{
+       height:73%;
+       width: 100%;
+  
+   }
+   .d{
+    font-family:monospace;
+    font-size: 20px;
+   }
+   .left{
+    display: flex;
+    justify-content: center;
+    width:50%;
+    float: left;
+
+   }
+   fieldset{
+   width: 40%;
+   border-radius: 5px;
+   text-align: center;
+   padding: 0;
+   }
+   .legend{
+    background-color: black;
+    color: aliceblue;
+      border: 1px solid black;
+   }
+    .first{
+ 
+        height: 60px;
+        background-color: rgb(126, 129, 132);
+        color:black;
+    }
+    h4{
+        margin:0;
+        display: flex;
+        justify-content: end;
+        height: 100%;
+        align-items: end;
+        font-family: math;
+    }
+    .second{/*         
+         height:80px; */
+         font-family: math;
+         font-size: 30px;
+         background-color: white;
+         padding: 0;
+         text-align: right;
+         padding-right: 10px;
+    }
+    .h3{
+        padding:0;
+        /* margin-block-start: 0;
+        margin-block-end: 0; */
+    }
+     .third{
+        height: 120px;
+        background-color: yellow;
+        color:black;
+        font-size: 120px;
+        font-weight: 600;
+        font-family:sans-serif;
+        text-align: right; 
+     }
+   .right{
+        width: 50%;
+        float:right;    
+   }
+   p{
+    text-align: center;
+   }
+   .button1{
+    text-align: center;
+   }
+   .footer{
+       height: 17%;
+       background-color: rgb(32, 32, 52);
+       color: white;
+       justify-content: center;
+   }
+   .footer>p{
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: ui-monospace;
+   }
+   .button{
+    text-align: center;
+   }
+   button{
+    background-color: orange;
+    color: aliceblue;
+    padding: 3px;
+    width: 45%;
+    border-radius: 5px;
+    border: none;
+    font-family: fantasy;
+   }
+ 
