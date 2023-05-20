@@ -19,16 +19,15 @@ body{
 a{
     text-decoration: none;
     padding-right: 25px;
-    border-radius: top ;
+    border-radius: top;
 }
 .content{
     background-image:url(/img/spiderman.webp);
     height:400px;
     z-index: -1;
     opacity: .8;
-
 }
-h1{
+h1{ 
     color:red;
     text-align: center;
     padding-top: 60px;
@@ -38,5 +37,5 @@ p{
     font-size: 30px;
     color:red;
     text-align: center;
-
 }
+  
