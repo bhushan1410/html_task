@@ -1,11 +1,11 @@
-function delay(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+function multiplyByNineFifths(number) {
+  return number * (9 / 5);
 }
 
-async function asyncFunction() {
-  console.log("Before delay");
-  await delay(2000);
-  console.log("After delay");
+function getFahrenheit(celsius) {
+  return multiplyByNineFifths(celsius) + 32;
 }
 
-asyncFunction();
+getFahrenheit(15);
+
+console.log("multiplyByNineFifths");

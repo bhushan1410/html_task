@@ -1,9 +1,9 @@
-let time = new Date().getHours();
-if (time < 10) {
-  greeting = "Good Morning";
-} else if (time < 18) {
-  greeting = "Good day";
+let hours = new Date().getHours();
+if (hours < 13) {
+  greeting = "good morning";
+} else if (hours < 20) {
+  greeting = "good Evening";
 } else {
-  greeting = "Good evening";
+  greeting = "good night";
 }
 console.log(greeting);
