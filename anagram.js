@@ -1,4 +1,4 @@
-//program for checking anagram,anagram check if two strings are equal;
+// program for checking anagram,anagram check if two strings are equal;
 
 // function areAnagram(str1,str2){
    
@@ -27,23 +27,42 @@
 //    else{
 //     console.log("The two strings are not anagram of each other")
 //    }
-function convertDateFormat(dateString) {
-    const months = [
-      'January', 'February', 'March', 'April', 'May', 'June',
-      'July', 'August', 'September', 'October', 'November', 'December'
-    ];
+    
+// Convert Date 
+
+// function convertDateFormat(dateString) {
+//     const months = [
+//       'January', 'February', 'March', 'April', 'May', 'June',
+//       'July', 'August', 'September', 'October', 'November', 'December'
+//     ];
   
-    const parts = dateString.split('-');
-    const day = parts[0];
-    const monthIndex = Number.parseInt(parts[1]) - 1;
-    const year = parts[2];
+//     const parts = dateString.split('-');
+//     const day = parts[0];
+//     const monthIndex = Number.parseInt(parts[1]) - 1;
+//     const year = parts[2];
   
-    const month = months[monthIndex];
+//     const month = months[monthIndex];
   
-    return `${day} ${month} ${year}`;
-  }
+//     return `${day} ${month} ${year}`;
+//   }
   
-  const inputDate = '22-06-2023';
-  const formattedDate = convertDateFormat(inputDate);
-  console.log(formattedDate);  // Output: 22 June 2023
+//   const inputDate = '22-06-2023';
+//   const formattedDate = convertDateFormat(inputDate);
+//   console.log(formattedDate);  
   
+//  factorail of number using recursion\\
+
+//  function abc(num){
+//     if(num==0)
+//         return false
+    
+//     console.log(num)
+//     abc(num-1)
+//  }
+//  abc(10);
+
+
+
+
+
+

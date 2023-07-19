@@ -1,4 +1,4 @@
-//even numbers in an array
+   //even numbers in an array
 
 // let arr = [3,6,10,14,8];
 // function evenNumber(arr){
@@ -7,25 +7,19 @@
 //         if(arr[i] % 2 == 0){
 //             evenNumbers.push(arr[i]);
 //         }
-//     }
+//     } 
 //     return evenNumbers;
 // }
-// evenNumber(arr);
+// this.evenNumber(arr);
 // console.log(evenNumber(arr))
 
 // reverse the string
 
-// let str = "Hi , my name is Shubham";
+// const str = "hello";
+// const reverseStr = str.split('').reverse().join('');
+// console.log(reverseStr)
 
-//with in build function
-
-// function reverseString(str){
-//     return str.split(" ").reverse().join(" ")
-
-
-// reverseString("hello");
-
-// function reverseString(str){
+// function reverseString(str){  
 //     let newString = " ";
 //     for( let i = str.length-1 ; i >= 0 ;i--){
 //              newString += str[i];
@@ -45,9 +39,9 @@
 //         }
 //     }
 // }
-// EvenNumber(arr);
+// EvenNumber(arr);  
 
-//print odd numbe if they are on odd index
+//print odd number if they are on odd index
 
 // function Oddnumber(arr){
 //     for(let i= 0 ; i <arr.length ;i++){
@@ -83,36 +77,53 @@
 // divident (20,5);
 // divident(4 ,5);
 
+// second highest number
 
-let arr = [3, 6, 10, 14, 8];
-let highest = -Infinity; 
-let secondHighest = -Infinity; 
+// let arr = [3, 6, 10, 14, 8];
+// let highest = -Infinity; 
+// let secondHighest = -Infinity; 
 
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] > highest) {
-        secondHighest = highest; 
-        highest = arr[i]; 
-    } else if (arr[i] > secondHighest && arr[i] < highest) {
-        secondHighest = arr[i]; 
-    }
-}
-console.log(secondHighest);
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > highest) {
+//         secondHighest = highest; 
+//         highest = arr[i]; 
+//     } else if (arr[i] > secondHighest && arr[i] < highest) {
+//         secondHighest = arr[i];                     
+//     }
+// }
+// console.log(secondHighest);  
+   
+// seprate element from array
+
+// const numbers = [45,6,4,3,34];                   
+// let txt = " ";
+// numbers.forEach(myfunction);
+// console.log(txt);
+
+// function myfunction(value){
+//     txt += value+ " ";
+// }
+
+//fibonacci numbers 
+
+// function fibonacci(n){
+//     let series = [0,1];
+//     for(let i=2 ;i<n ;i++){
+//         let nextNum = series[i-1]+series[i-2];
+//         series.push(nextNum)
+//     }
+//      return series;
+// }
+// let n = 10;
+// console.log(fibonacci(n))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   // console.log(Math.pow(2,3))
+   // console.log(Math.floor(3.4))
+   // console.log(Math.sqrt(49))  
+   // console.log(Math.abs(-4.7))
+   // console.log(Math.min(4,6,7,8))
+   // console.log(Boolean(32>4))
+   // console.log(Math.pow(4,2))
+   // console.log("john".constructor)
 

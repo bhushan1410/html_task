@@ -36,7 +36,7 @@ subjectFolder = subjectFolder.replace("/", "");
 if (subjectFolder.startsWith("python/") == true ) {
   if (subjectFolder.includes("/numpy/") == true ) {
     subjectFolder = "numpy/"
-  } else if (subjectFolder.includes("/pandas/") == true ) {
+  } else if (subjectFolder.includes("/pandas/")== true ) {
       subjectFolder = "pandas/"
   } else if (subjectFolder.includes("/scipy/") == true ) {
       subjectFolder = "scipy/"
@@ -2060,6 +2060,7 @@ if (internalFeatureRnd == 1) {
                   adngin.queue.push(function(){  adngin.cmd.startAuction(["sidebar_sticky", "mid_content" ]); });
                 } else {
                   adngin.queue.push(function(){  adngin.cmd.startAuction(["sidebar_sticky"]); });
+                }
                 }
               } else {
                 if (document.getElementById("adngin-mid_content-0")) {
